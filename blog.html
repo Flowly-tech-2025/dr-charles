@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Dr. Charles Clínica Odontológica</title>
+    <meta name="description" content="Blog da Dr. Charles Clínica Odontológica com dicas de saúde bucal, tratamentos e cuidados dentários.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/Logo.png">
+</head>
+<body>
+    <!-- Header / Navegação -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Dr. Charles Clínica Odontológica">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="equipe.html">Equipe</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="agendamento.html" class="btn-agendar">Agendar Consulta</a></li>
+                </ul>
+            </nav>
+            <div class="menu-mobile">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="nav-mobile">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="agendamento.html" class="btn-agendar">Agendar Consulta</a></li>
+        </ul>
+    </div>
+    <div class="overlay"></div>
+
+    <!-- Banner da Página -->
+    <section class="page-banner">
+        <div class="container">
+            <div class="banner-content fade-in">
+                <h1>Blog</h1>
+                <p>Dicas e informações sobre saúde bucal</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Posts em Destaque -->
+    <section class="featured-posts">
+        <div class="container">
+            <h2 class="fade-in">Posts em Destaque</h2>
+            <div class="featured-grid">
+                <article class="featured-post fade-in">
+                    <div class="post-image">
+                        <img src="assets/images/Saude bucal.jpg" alt="Como manter a saúde bucal em dia">
+                        <div class="post-category">Prevenção</div>
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="#">Como manter a saúde bucal em dia</a></h3>
+                        <p class="post-excerpt">Descubra as melhores práticas para manter seus dentes e gengivas saudáveis no dia a dia.</p>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar"></i> 15 Jan 2025</span>
+                            <span class="post-author"><i class="fas fa-user"></i> Dr. Charles</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="featured-post fade-in">
+                    <div class="post-image">
+                        <img src="assets/images/Implante.jpg" alt="Implantes dentários: tudo que você precisa saber">
+                        <div class="post-category">Tratamentos</div>
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="#">Implantes dentários: tudo que você precisa saber</a></h3>
+                        <p class="post-excerpt">Guia completo sobre implantes dentários, desde o procedimento até os cuidados pós-operatórios.</p>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="fas fa-calendar"></i> 12 Jan 2025</span>
+                            <span class="post-author"><i class="fas fa-user"></i> Dr. Charles</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <section class="blog-content">
+        <div class="container">
+            <div class="blog-layout">
+                <!-- Lista de Posts -->
+                <div class="posts-list">
+                    <h2 class="fade-in">Últimos Artigos</h2>
+                    
+                    <article class="blog-post fade-in">
+                        <div class="post-thumbnail">
+                            <img src="assets/images/Clareamento.jpg" alt="Clareamento dental: mitos e verdades">
+                            <div class="post-category">Estética</div>
+                        </div>
+                        <div class="post-info">
+                            <h3><a href="#">Clareamento dental: mitos e verdades</a></h3>
+                            <p class="post-excerpt">Esclareça suas dúvidas sobre o clareamento dental e descubra qual é o melhor método para você.</p>
+                            <div class="post-meta">
+                                <span class="post-date"><i class="fas fa-calendar"></i> 10 Jan 2025</span>
+                                <span class="post-author"><i class="fas fa-user"></i> Dr. Charles</span>
+                                <span class="post-comments"><i class="fas fa-comments"></i> 5 comentários</span>
+                            </div>
+                            <a href="#" class="read-more">Leia mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post fade-in">
+                        <div class="post-thumbnail">
+                            <img src="assets/images/Alinhador.jpeg" alt="Ortodontia invisível: a revolução dos alinhadores">
+                            <div class="post-category">Ortodontia</div>
+                        </div>
+                        <div class="post-info">
+                            <h3><a href="#">Ortodontia invisível: a revolução dos alinhadores</a></h3>
+                            <p class="post-excerpt">Conheça as vantagens dos alinhadores transparentes e como eles podem transformar seu sorriso.</p>
+                            <div class="post-meta">
+                                <span class="post-date"><i class="fas fa-calendar"></i> 08 Jan 2025</span>
+                                <span class="post-author"><i class="fas fa-user"></i> Dr. Charles</span>
+                                <span class="post-comments"><i class="fas fa-comments"></i> 3 comentários</span>
+                            </div>
+                            <a href="#" class="read-more">Leia mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post fade-in">
+                        <div class="post-thumbnail">
+                            <img src="assets/images/Extração.jpg" alt="Cuidados após extração dentária">
+                            <div class="post-category">Cuidados</div>
+                        </div>
+                        <div class="post-info">
+                            <h3><a href="#">Cuidados após extração dentária</a></h3>
+                            <p class="post-excerpt">Orientações importantes para uma recuperação rápida e sem complicações após a extração.</p>
+                            <div class="post-meta">
+                                <span class="post-date"><i class="fas fa-calendar"></i> 05 Jan 2025</span>
+                                <span class="post-author"><i class="fas fa-user"></i> Dr. Charles</span>
+                                <span class="post-comments"><i class="fas fa-comments"></i> 8 comentários</span>
+                            </div>
+                            <a href="#" class="read-more">Leia mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post fade-in">
+                        <div class="post-thumbnail">
+                            <img src="assets/images/Consulta.jpeg" alt="A importância da consulta preventiva">
+                            <div class="post-category">Prevenção</div>
+                        </div>
+                        <div class="post-info">
+                            <h3><a href="#">A importância da consulta preventiva</a></h3>
+                            <p class="post-excerpt">Entenda por que as consultas regulares são fundamentais para manter a saúde bucal em dia.</p>
+                            <div class="post-meta">
+                                <span class="post-date"><i class="fas fa-calendar"></i> 03 Jan 2025</span>
+                                <span class="post-author"><i class="fas fa-user"></i> Dr. Charles</span>
+                                <span class="post-comments"><i class="fas fa-comments"></i> 12 comentários</span>
+                            </div>
+                            <a href="#" class="read-more">Leia mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Paginação -->
+                    <div class="pagination fade-in">
+                        <a href="#" class="page-link active">1</a>
+                        <a href="#" class="page-link">2</a>
+                        <a href="#" class="page-link">3</a>
+                        <a href="#" class="page-link">Próxima <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="blog-sidebar">
+                    <!-- Busca -->
+                    <div class="sidebar-widget fade-in">
+                        <h3>Buscar</h3>
+                        <form class="search-form">
+                            <input type="text" placeholder="Buscar artigos...">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <!-- Categorias -->
+                    <div class="sidebar-widget fade-in">
+                        <h3>Categorias</h3>
+                        <ul class="categories-list">
+                            <!-- Categorias funcionais -->
+                            <li><a href="blog.html?categoria=prevencao">Prevenção <span>(8)</span></a></li>
+                            <li><a href="blog.html?categoria=tratamentos">Tratamentos <span>(12)</span></a></li>
+                            <li><a href="blog.html?categoria=estetica">Estética <span>(6)</span></a></li>
+                            
+                            <!-- Artigos com páginas individuais -->
+                            <h3><a href="artigo-saude-bucal.html">Como manter a saúde bucal em dia</a></h3>
+                            <h3><a href="artigo-implantes.html">Implantes dentários: tudo que você precisa saber</a></h3>
+                            <li><a href="#">Ortodontia <span>(4)</span></a></li>
+                            <li><a href="#">Cuidados <span>(10)</span></a></li>
+                            <li><a href="#">Implantes <span>(5)</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Posts Populares -->
+                    <div class="sidebar-widget fade-in">
+                        <h3>Posts Populares</h3>
+                        <div class="popular-posts">
+                            <article class="popular-post">
+                                <img src="assets/images/Escovar dente.jpg" alt="Como escovar os dentes corretamente">
+                                <div class="popular-post-content">
+                                    <h4><a href="#">Como escovar os dentes corretamente</a></h4>
+                                    <span class="post-date">20 Dez 2024</span>
+                                </div>
+                            </article>
+                            <article class="popular-post">
+                                <img src="assets/images/Fio dental.jpg" alt="Benefícios do fio dental">
+                                <div class="popular-post-content">
+                                    <h4><a href="#">Benefícios do fio dental</a></h4>
+                                    <span class="post-date">18 Dez 2024</span>
+                                </div>
+                            </article>
+                            <article class="popular-post">
+                                <img src="assets/images/Escova.jpg" alt="Quando trocar a escova de dentes">
+                                <div class="popular-post-content">
+                                    <h4><a href="#">Quando trocar a escova de dentes</a></h4>
+                                    <span class="post-date">15 Dez 2024</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="sidebar-widget fade-in">
+                        <h3>Newsletter</h3>
+                        <p>Receba dicas de saúde bucal diretamente no seu e-mail.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Seu e-mail">
+                            <button type="submit" class="btn-primary">Inscrever-se</button>
+                        </form>
+                    </div>
+
+                    <!-- Contato Rápido -->
+                    <div class="sidebar-widget fade-in">
+                        <h3>Agende sua Consulta</h3>
+                        <p>Precisa de atendimento? Entre em contato conosco.</p>
+                        <div class="quick-contact">
+                            <a href="tel:+5511999999999" class="contact-btn">
+                                <i class="fas fa-phone"></i>
+                                (11) 99999-9999
+                            </a>
+                            <a href="https://wa.me/5511999999999" class="contact-btn whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp
+                            </a>
+                            <a href="agendamento.html" class="btn-primary">Agendar Online</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Agende sua consulta hoje mesmo</h2>
+            <p>Primeiro atendimento com condições especiais</p>
+            <a href="agendamento.html" class="btn-primary">Agendar agora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/Logo.png" alt="Dr. Charles Clínica Odontológica">
+                    <p>Excelência em saúde bucal</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Principal, 123 - Centro</p>
+                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                    <p><i class="fas fa-envelope"></i> contato@drcharles.com.br</p>
+                </div>
+                <div class="footer-hours">
+                    <h3>Horário de Atendimento</h3>
+                    <p>Segunda a Sexta: 8h às 19h</p>
+                    <p>Sábados: 8h às 12h</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Charles Clínica Odontológica. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
